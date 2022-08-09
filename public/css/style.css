@@ -1,0 +1,123 @@
+:root {
+  --header-height: 3rem;
+  /*========== Colors ==========*/
+  /* Change favorite color */
+  --hue-color: 250;
+  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --star-color: hsl(var(--hue-color), 69%, 61%);
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --input-color: hsl(var(--hue-color), 70%, 96%);
+  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --container-color: #fff;
+  --verified-color:hsl(var(--hue-color), 8%, 65%);
+  --blob-color:hsl(var(--hue-color), 69%, 61%);
+  --template-button-color: hsl(206, 56%, 92%);
+  --testimonial-box-shadow: rgba(0, 0, 0, 0.25);;
+  --testimonial-box-color: hsl(var(--hue-color), 60%, 99%);
+  --anker-element-project:#474554;
+  --anker-element-project2: #9F9DA9;
+  --qualification-line: var(--first-color);
+  --blog-phara-color:hsl(var(--hue-color), 10%, 70%);
+
+  /*========== Font and typography ==========*/
+  --body-font: font-family: 'Poppins', sans-serif;
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /*========== Margenes Bottom ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 100;
+}
+  .form_testimonial {
+      margin: 3rem auto;
+      width: 90%;
+      max-width: 30rem;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px var(--testimonial-box-shadow);
+      background-color: var(--testimonial-box-color);
+  }
+  .contact__testmonial label {
+  padding: .75rem .5rem .25rem;
+  font-weight: bold;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-bottom: 0%;
+}
+
+.contact__testmonial input,
+textarea {
+  font: inherit;
+  padding: 0.25rem;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid rgb(0, 0, 0);
+  display: block;
+  width: 95%;
+  background-color: var(--input-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+  padding: .2rem .5rem .5rem 0;
+}
+
+.contact__testmonial input:focus,
+.contact__testmonial textarea:focus {
+  border-color: rgb(243, 94, 243);
+  background-color: var(--scroll-bar-color);
+  outline: none;
+}
+body{
+  /* opacity: .1; */
+  background-image: url("2.jpg");
+  /* background-color: aqua; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 10%; */
+  opacity: 90%;
+}
+body table{
+  /* background: none; */
+  /* background-image: none; */
+  background-color: #fff;
+  /* opacity: 200%; */
+}
+.bcimg{
+  font-size: 4rem;
+  color: aliceblue;
+  outline: #474554;
+}
+.form_testimonial{
+  opacity: 98%;
+}
